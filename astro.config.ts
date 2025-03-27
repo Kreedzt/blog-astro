@@ -23,6 +23,8 @@ import {
   transformerNotationDiff,
 } from "@shikijs/transformers";
 
+import partytown from '@astrojs/partytown';
+
 // https://astro.build/config
 export default defineConfig({
   image: {
@@ -33,6 +35,11 @@ export default defineConfig({
     tailwind({
       applyBaseStyles: false,
       nesting: true,
+    }),
+    partytown({
+      config: {
+        forward: ["dataLayer.push"],
+      },
     }),
     sitemap(),
     mdx(),
@@ -46,7 +53,7 @@ export default defineConfig({
       /**
        * optional
        **/
-      // short_name: "Astro_Citrus",
+      short_name: "Kreedzt's Blog",
       description: siteConfig.description,
       lang: siteConfig.lang,
       icon: "public/icon.svg", // the source for generating favicon & icons
