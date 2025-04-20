@@ -69,7 +69,6 @@ updateDate: "2025-04-20"
 - [autoprefixer](https://github.com/postcss/autoprefixer) - Parse CSS and add vendor prefixes to rules by Can I Use
 - [postcss](https://github.com/postcss/postcss) - Transforming styles with JS plugins
 - [terser](https://github.com/terser/terser)
-- [UglifyJS](https://github.com/mishoo/UglifyJS) - JavaScript parser / mangler / compressor / beautifier toolkit
 - [lightningcss](https://github.com/parcel-bundler/lightningcss) - An extremely fast CSS parser, transformer, bundler, and minifier written in Rust.
 - [rspack](https://github.com/web-infra-dev/rspack) - The fast Rust-based web bundler with webpack-compatible API 🦀️
 - [snowpack](https://github.com/FredKSchott/snowpack) - ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️
@@ -122,7 +121,6 @@ updateDate: "2025-04-20"
 - [playwright](https://github.com/microsoft/playwright) - Playwright is a framework for Web Testing and Automation.
 - [javascript-testing-best-practices](https://github.com/goldbergyoni/javascript-testing-best-practices) - 📗🌐 🚢 Comprehensive and exhaustive JavaScript & Node.js testing best practices (July 2023)
 - [sinon](https://github.com/sinonjs/sinon) - Test spies, stubs and mocks for JavaScript.
-- [istanbul](https://github.com/gotwarlost/istanbul) - Yet another JS code coverage tool.
 - [mochawesome](https://github.com/adamgruber/mochawesome) - A Gorgeous HTML/CSS Reporter for Mocha.js.
 - [pollyjs](https://github.com/Netflix/pollyjs) - Record, Replay, and Stub HTTP Interactions.
 
@@ -288,7 +286,6 @@ updateDate: "2025-04-20"
 - [normalize.css](https://github.com/necolas/normalize.css) - A modern alternative to CSS resets
 - [emotion](https://github.com/emotion-js/emotion)
 - [awesome-styled-components](https://github.com/styled-components/awesome-styled-components) - A curated list of awesome styled-components resources 💅
-- [glamorous](https://github.com/paypal/glamorous) - DEPRECATED: 💄 Maintainable CSS with React
 
 ## 数据管理 (Data Management)
 
