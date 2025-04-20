@@ -1,7 +1,7 @@
 ---
 title: Web 前后端相关技术选型页面
 publishDate: "2025-03-26"
-updateDate: "2025-03-30"
+updateDate: "2025-04-20"
 ---
 
 # 核心技术栈
@@ -24,6 +24,16 @@ updateDate: "2025-03-30"
 - [hyperapp](https://github.com/jorgebucaran/hyperapp)
 - [mithril](https://github.com/MithrilJS/mithril.js)
 - [marko](https://github.com/marko-js/marko)
+- [ractive](https://github.com/ractivejs/ractive)
+- [dumi](https://github.com/umijs/dumi)
+
+## ORM
+
+- [objection](https://github.com/Vincit/objection.js)
+- [knex](https://github.com/knex/knex)
+- [typeorm](https://github.com/typeorm/typeorm)
+- [prisma](https://github.com/prisma/prisma)
+- [sequelize](https://github.com/sequelize/sequelize)
 
 ## 构建工具
 
@@ -34,12 +44,34 @@ updateDate: "2025-03-30"
 - [parcel](https://github.com/parcel-bundler/parcel)
 - [tsdx](https://github.com/jaredpalmer/tsdx)
 - [tsup](https://github.com/egoist/tsup)
+- [imagemin](https://github.com/imagemin/imagemin)
+
+> React Native
+- [facebook/metro](https://github.com/facebook/metro)
 
 ### 构建优化
 
 - [bundlephobia](https://github.com/pastelsky/bundlephobia)
 - [terser](https://github.com/terser/terser)
 - [UglifyJS](https://github.com/mishoo/UglifyJS)
+
+### 性能分析
+
+- [node-clinic](https://github.com/clinicjs/node-clinic)
+- [sitespeed.io](https://github.com/sitespeedio/sitespeed.io)
+
+
+### Debug
+
+- [dumper.js](https://github.com/ziishaned/dumper.js)
+
+#### React
+
+- [loadable-components](https://github.com/gregberge/loadable-components)
+
+### 运行时
+
+- [llrt](https://github.com/awslabs/llrt)
 
 ## 代码质量
 
@@ -71,6 +103,10 @@ updateDate: "2025-03-30"
 - [karma](https://github.com/karma-runner/karma)
 - [nightwatch](https://github.com/nightwatchjs/nightwatch)
 - [Detox](https://github.com/wix/Detox)
+- [tape](https://github.com/tape-testing/tape)
+- [nyc](https://github.com/istanbuljs/nyc)
+- [migratejs](https://github.com/miragejs/miragejs)
+- [qunit](https://github.com/qunitjs/qunit)
 
 ### React 测试
 
@@ -85,6 +121,8 @@ updateDate: "2025-03-30"
 - [semantic-ui](https://github.com/Semantic-Org/Semantic-UI)
 - [amphtml](https://github.com/ampproject/amphtml)
 - [TW-Elements](https://github.com/mdbootstrap/TW-Elements)
+- [skeleton](https://github.com/skeletonlabs/skeleton) - Skeleton is an adaptive design system powered by Tailwind CSS
+- [park-ui](https://github.com/cschroeter/park-ui) - Beautifully designed components built with Ark UI and Panda CSS
 
 ### React UI
 
@@ -93,6 +131,7 @@ updateDate: "2025-03-30"
 - [react-bootstrap](https://github.com/react-bootstrap/react-bootstrap)
 - [evergreen](https://github.com/segmentio/evergreen)
 - [downshift](https://github.com/downshift-js/downshift)
+- [react-modal](https://github.com/reactjs/react-modal)
 
 ### Vue UI
 
@@ -102,6 +141,10 @@ updateDate: "2025-03-30"
 ### Angular UI
 
 - [material](https://github.com/angular/components)
+
+## Icons
+
+- [twbs/icons](https://github.com/twbs/icons)
 
 ## CSS 解决方案
 
@@ -115,12 +158,15 @@ updateDate: "2025-03-30"
 
 - [emotion](https://github.com/emotion-js/emotion)
 - [styled-components](https://github.com/styled-components/styled-components)
+- [goober](https://github.com/cristianbote/goober)
+
 
 # 数据处理
 
 ## 数据请求
 
 - [axios](https://github.com/axios/axios)
+- [sockjs-client](https://github.com/sockjs/sockjs-client)
 
 ## 数据校验
 
@@ -128,11 +174,21 @@ updateDate: "2025-03-30"
 - [yup](https://github.com/jquense/yup)
 - [joi](https://github.com/hapijs/joi)
 
+## 数据解析
+
+- [formidable](https://github.com/node-formidable/formidable)
+- [math.js](https://github.com/josdejong/mathjs)
+  - [bignumber](https://github.com/MikeMcl/bignumber.js)
+  - [decimal](https://github.com/MikeMcl/decimal.js)
+
+## 国际化
+
+- [i18next](https://github.com/i18next/i18next) - i18next: learn once - translate everywhere
+
 ## 状态管理
 
 - [immutable](https://github.com/immutable-js/immutable-js)
 - [immer](https://github.com/immerjs/immer)
-- [math.js](https://github.com/josdejong/mathjs)
 
 ### React 状态
 
@@ -152,6 +208,10 @@ updateDate: "2025-03-30"
 - [react-final-form](https://github.com/final-form/react-final-form)
 - [tanstack-form](https://github.com/tanstack/form)
 
+## 认证授权
+
+- [better-auth](https://github.com/better-auth/better-auth) - The most comprehensive authentication framework for TypeScript
+
 # 功能增强
 
 ## 可视化
@@ -162,6 +222,10 @@ updateDate: "2025-03-30"
 - [fabric.js](https://github.com/fabricjs/fabric.js)
 - [plotly.js](https://github.com/plotly/plotly.js)
 - [vega](https://github.com/vega/vega)
+
+### 小程序
+
+- [echarts-for-weixin](https://github.com/ecomfe/echarts-for-weixin)
 
 ### React 图表
 
@@ -187,6 +251,10 @@ updateDate: "2025-03-30"
 - [trix](https://github.com/basecamp/trix)
 - [highlight.js](https://github.com/highlightjs/highlight.js)
 - [quill](https://github.com/slab/quill)
+- [cherry-markdown](https://github.com/Tencent/cherry-markdown)
+
+## 图形图像处理
+
 
 ### 协同编辑
 
@@ -208,7 +276,30 @@ updateDate: "2025-03-30"
 - [react-virtualized](https://github.com/bvaughn/react-virtualized)
 - [react-window](https://github.com/bvaughn/react-window)
 
+## 用户体验
+
+- [shepherd](https://github.com/shipshapecode/shepherd) - Guide your users through a tour of your app
+
+# 编程语言
+
+- [imba](https://github.com/imba/imba)
+
 # 专业领域
+
+## 音视频
+
+- [xgplayer](https://github.com/bytedance/xgplayer)
+- [APlayer](https://github.com/DIYgod/APlayer)
+
+## 数据库
+
+- [alasql](https://github.com/AlaSQL/alasql)
+- [sharedb](https://github.com/share/sharedb)
+
+## 2D 绘图
+
+- [two.js](https://github.com/jonobr1/two.js)
+- [css-doodle](https://github.com/css-doodle/css-doodle)
 
 ## 3D/VR/游戏
 
@@ -219,6 +310,7 @@ updateDate: "2025-03-30"
 - [webxr](https://github.com/immersive-web/webxr-polyfill)
 - [phaser](https://github.com/photonstorm/phaser)
 - [matter.js](https://github.com/liabru/matter-js)
+- [potree](https://github.com/potree/potree)
 
 ## 文件处理
 
@@ -244,10 +336,27 @@ updateDate: "2025-03-30"
 - [clipboard](https://github.com/zenorocha/clipboard.js)
 - [async](https://github.com/caolan/async)
 - [rxjs](https://github.com/ReactiveX/rxjs)
+- [imaskjs](https://github.com/uNmAnNeR/imaskjs)
+- [pinyin](https://github.com/hotoo/pinyin)
+- [hotkeys-js](https://github.com/jaywcjlove/hotkeys-js)
+- [chance](https://github.com/chancejs/chancejs)
+- [randomColor](https://github.com/davidmerfield/randomColor)
+- [nodegit](https://github.com/nodegit/nodegit)
+- [ProjectVisBug](https://github.com/GoogleChromeLabs/ProjectVisBug)
+- [postlight/parser](https://github.com/postlight/parser)
+- [color](https://github.com/Qix-/color)
+- [coordtransform](https://github.com/wandergis/coordtransform)
+- [fontfaceobserver](https://github.com/bramstein/fontfaceobserver)
+- [xregexp](https://github.com/slevithan/xregexp)
+- [prom-client](https://github.com/siimon/prom-client)
+- [winterjs](https://github.com/wasmerio/winterjs)
+- [workerpool](https://github.com/josdejong/workerpool)
+- [ZeroOmega](https://github.com/zero-peak/ZeroOmega) - Manage and switch between multiple proxies quickly & easily
 
 ## 机器学习/AI
 
 - [tensorflow.js](https://github.com/tensorflow/tfjs)
+  - [ml5-library](https://github.com/ml5js/ml5-library)
 - [transformers.js](https://github.com/huggingface/transformers.js)
 - [compromise](https://github.com/spencermountain/compromise)
 
@@ -256,10 +365,34 @@ updateDate: "2025-03-30"
 - [framework7](https://github.com/framework7io/framework7)
 - [react-native](https://github.com/facebook/react-native)
 - [ionic](https://github.com/ionic-team/ionic)
+- [F2](https://github.com/antvis/F2)
+
+## benchmark
+
+- [autocannon](https://github.com/mcollina/autocannon)
+- [js-framework-benchmark](https://github.com/krausest/js-framework-benchmark)
 
 ## 开发参考
 
 - [clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
 - [project guidelines](https://github.com/elsewhencode/project-guidelines)
 - [javascript-testing-best-practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
+- [awesome-wpo](https://github.com/davidsonfellipe/awesome-wpo)
+- [dsa.js-data-structures-algorithms-javascript](https://github.com/amejiarosario/dsa.js-data-structures-algorithms-javascript)
+- [micro-frontends](https://micro-frontends.org/)
+
+# 应用
+
+- [countly-server](https://github.com/Countly/countly-server)
+- [heynote](https://github.com/heyman/heynote)
+- [GhostText](https://github.com/fregante/GhostText)
+- [graphqurl](https://github.com/hasura/graphqurl)
+- [json-schema-faker](https://github.com/json-schema-faker/json-schema-faker)
+- [chartbrew](https://github.com/chartbrew/chartbrew)
+- [node-soap](https://github.com/vpulim/node-soap)
+- [onenav](https://github.com/helloxz/onenav)
+
+### React
+
 - [react-in-patterns](https://github.com/krasimir/react-in-patterns)
+- [just-react](https://github.com/BetaSu/just-react)
