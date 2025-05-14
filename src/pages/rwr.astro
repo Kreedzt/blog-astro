@@ -1,0 +1,75 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "RWR related resources",
+	title: "RWR resources",
+};
+---
+
+<PageLayout meta={meta}>
+
+	<h1 class="title mb-6">RWR 资源页</h1>
+	<div class="prose prose-citrus max-w-none">
+		<p>
+			RWR 相关工具列表
+		</p>
+		<ul class="list-inside list-disc" role="list">
+			<li>
+                RWR 存档管理后端
+                <a 
+                    aria-label="rwr-profile-server github repository"
+                    href="https://github.com/Kreedzt/rwr-profile-server"
+                    rel="noreferrer"
+                    target="_blank"
+                >
+                    rwr-profile-server
+                </a>
+            </li>
+			<li>
+                RWR Mod 安装器
+                <a 
+                    aria-label="rwr-mod-installer github repository"
+                    href="https://github.com/Kreedzt/rwr-mod-installer"
+                    rel="noreferrer"
+                    target="_blank"
+                >
+                    rwr-mod-installer
+                </a>
+            </li>
+			<li>
+                RWRS 服务器状态页
+                <a 
+                    aria-label="rwrs-another-page github repository"
+                    href="https://github.com/Kreedzt/rwrs-another-page"
+                    rel="noreferrer"
+                    target="_blank"
+                >
+                    rwrs-another-page
+                </a>
+            </li>
+            <li>
+                RWR Imba QQ 机器人后端
+                <a 
+                    href="https://github.com/Kreedzt/rwr-imba-qq-bot"
+                    aria-label="rwr-imba-qq-bot github repository"
+                    rel="noreferrer"
+                    target="_blank"
+                >
+                    rwr-imba-qq-bot
+                </a>
+            </li>
+            <li>
+                适用于 VSCode 的 RWR Mod 开发插件
+                <a 
+                    href="https://github.com/Kreedzt/vscode-rwr-mod-tool"
+                    aria-label="vscode-rwr-mod-tool github repository"
+                    rel="noreferrer"
+                    target="_blank"
+                >
+                    vscode-rwr-mod-tool
+                </a>
+            </li>
+		</ul>
+	</div>
+</PageLayout>
